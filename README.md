@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - FAQ accordion card solution
 
-## Getting Started
+This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![](./public/desktop-preview.jpg)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Table of contents
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Overview
 
-## Learn More
+### The challenge
 
-To learn more about Next.js, take a look at the following resources:
+Users should be able to:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Open a lightbox gallery by clicking on the large product image
+- Switch the large product image by clicking on the small thumbnail images
+- Add items to the cart
+- View the cart and remove items from it
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Links
 
-## Deploy on Vercel
+- [Frontend Mentor - solution URL](https://www.frontendmentor.io/profile/stfnpczk)
+- [Live Demo](https://ecommerce-product-page-phi-orcin.vercel.app/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## My process
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Built with
+
+- mobile-first workflow
+- Styled Components
+- React
+- Next.js
+
+### What I learned
+
+- lightbox modal with native dialog element
+- image carousel slider with navigation functionality
+
+### Continued development
+
+In a further iteration, I'd like to optimize the carousel slider for mobile touch - either searching for a native solution or going with a library, like Swiper. An other aspect that I'd like to improve on, is the cart popover. Not quite happy with the polyfill of the Popover API yet, I opted for the MUI Popover component instead. With advancing browser compability, I'll look into it gain.
+
+<br>
+
+### Useful resources
+
+- [modal dialog --> Andrew Bone (dev.to)](https://dev.to/link2twenty/react-using-native-dialogs-to-make-a-modal-popup-4b25)
+- [image slider--> Aneeqa Khan (dev.to)](https://dev.to/aneeqakhan/building-an-image-slider-with-smooth-scrolling-using-react-1jdb)
+- [popover component --> mui.com](https://mui.com/material-ui/react-popover/)
+- [popover API --> developer.chrome.com](https://developer.chrome.com/blog/introducing-popover-api)
+
+<br>
+
+## Author
+
+- Frontend Mentor - [@stfnpczk](https://www.frontendmentor.io/profile/stfnpczk)
