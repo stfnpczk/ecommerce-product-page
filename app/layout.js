@@ -8,6 +8,12 @@ export const kumbhSans = Kumbh_Sans({
   subsets: ['latin'],
 });
 
+export const metadata = {
+  title: 'E-Commerce Product Page',
+  description:
+    'This is a solution to the E-commerce product page challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.',
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>

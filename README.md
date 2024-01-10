@@ -1,4 +1,4 @@
-# Frontend Mentor - FAQ accordion card solution
+# Frontend Mentor - E-commerce product page solution
 
 This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -52,7 +52,7 @@ Users should be able to:
 
 ### Continued development
 
-In a further iteration, I'd like to optimize the carousel slider for mobile touch - either searching for a native solution or going with a library, like Swiper. An other aspect that I'd like to improve on, is the cart popover. Not quite happy with the polyfill of the Popover API yet, I opted for the MUI Popover component instead. With advancing browser compability, I'll look into it gain.
+In a further iteration, I'd like to optimize the carousel slider for mobile touch - either searching for a native solution or going with a library, like Swiper. An other aspect that I'd like to improve on, is the cart popover. Not quite happy with the polyfill of the Popover API yet, I opted for the MUI Popover component instead. With advancing browser compability, I'll look into it again.
 
 <br>
 
