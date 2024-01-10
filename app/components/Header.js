@@ -281,6 +281,7 @@ export default function Header({ cartQuantity, setCartQuantity }) {
             variant='contained'
             onClick={handleClick}
             className='cartIcon'
+            aria-label='cart icon'
           >
             <svg width='22' height='20' xmlns='http://www.w3.org/2000/svg'>
               <path

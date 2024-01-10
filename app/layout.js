@@ -12,6 +12,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={kumbhSans.className}>
+        <head>
+          <title>E-commerce product page</title>
+        </head>
         <StyledComponentsRegistry>
           {children}
           <GlobalStyles />
