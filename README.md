@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- [Frontend Mentor - solution URL](https://www.frontendmentor.io/profile/stfnpczk)
+- [Frontend Mentor - solution URL](https://www.frontendmentor.io/solutions/ecommerce-product-page-using-react-styled-components-nextjs-ZYSIaezh5O)
 - [Live Demo](https://ecommerce-product-page-phi-orcin.vercel.app/)
 
 ## My process
