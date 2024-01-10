@@ -78,6 +78,7 @@ const CartItem = styled.div`
 const CartInfo = styled.div`
   .priceCalculation {
     color: var(--darkGray);
+    margin-right: 10px;
   }
 
   .cartSum {
